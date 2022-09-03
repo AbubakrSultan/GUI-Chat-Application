@@ -38,7 +38,7 @@ class Client:
         self.chat_label.config(font = ("Ariel", 12))
         self.chat_label.pack(padx = 20, pady = 5)
 
-        self.text_area = tkinter.scrolledtext.ScrolledText(self.win)
+        self.text_area = tkinter.scrolledtext.ScrolledText(self.win, height = 15)
         self.text_area.pack(padx = 20, pady = 5)
         self.text_area.config(state = "disabled")
 
