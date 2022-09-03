@@ -2,7 +2,7 @@ import socket
 import threading
 
 HOST = "10.0.0.20"
-PORT = 5050
+PORT = 8123
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((HOST, PORT))
