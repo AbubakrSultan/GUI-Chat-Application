@@ -1,7 +1,7 @@
 import socket
 import threading
 
-HOST = "192.168.2.29"
+HOST = "10.0.0.20"
 PORT = 5050
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
